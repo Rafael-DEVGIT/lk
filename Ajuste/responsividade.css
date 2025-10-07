@@ -240,7 +240,7 @@
         justify-content: center;
         align-items: center;
         height: 800px; 
-        margin-top: -130px;
+        margin-top: -180px;
     }
 
    .projects_armazenamento ul {
@@ -298,21 +298,27 @@
 
 
 
-    .section3-imagens {
-        justify-content: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        gap: 15px 10px;
-        padding: 10px 10px;
-        text-align: center;
-    }
+.section3-imagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px 10px;
+}
 
-    .section3-imagens img{
-        width: 35px;
-        height: 20px;
-        transition: all 0.5s;
-        mix-blend-mode: multiply;
-    }
+.section3-imagens div{
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+
+
+.section3-imagens img{
+    width: 70px;
+    height: 40px;
+    transition: all 0.5s;
+    mix-blend-mode: multiply;
+}
+
+
     .depoimentos{
         display: flex;
         flex-direction: column;
@@ -340,10 +346,32 @@
     .depo-img img{
         width: 130px;
     }
+    
+   .project_models {
+    margin-top: -70px;
+    }
 
     .project_models ul li {
-        padding: 4px 6px;
-        font-size: 12px;
+        padding: 3px 0px;
+        font-size: 15px;
+    }
+
+    .projects ul {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 10px; /* espaço entre botões, vertical e horizontal */
+        margin-top: 30px;
+        margin-bottom: -20px;
+    }
+
+    .project_models ul li {
+        list-style: none;
+        cursor: pointer;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.432);
+        color: #ffffff;
+        padding: 8px 10px;
+        font-size: 12px
     }
 
     .section-4 {
@@ -494,6 +522,27 @@
         font-size: 30px;
     }
 
+    .botoes {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 10px; /* espaço entre botões, vertical e horizontal */
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    .botoes a {
+        font-size: 15px;
+        display: inline-block;
+        font-family: 'poppins';
+        padding: 5px 10px;
+        margin: 0 5px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-image: url(../Media/wallpaper\ azul\ escuro.png);
+        cursor: pointer;
+    }
+
     .conteudo-destaque {
       font-family: 'poppins';
       width: 100%;
@@ -538,7 +587,7 @@
     }
    
     .btn-img-g a img {
-      width: 63px;
+      width: 64px;
       height: 45px;
       object-fit: cover;
       cursor: pointer;
@@ -546,5 +595,185 @@
       box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.432);
     }
 
+    .texto-divdestaque h3::after{
+        content: '';
+        width: 300px;
+        height: 3px;
+        border-radius: 5px;
+        background-color: #000000;
+        Display: block;
+    }
+
+    .texto-divdestaque h4 {
+        font-weight: normal;
+        width: 100%;
+        font-size: 11px;
+        color: #000000;
+        margin-top: 5px;
+    }
+
+    .email-cont-tab h1{
+        color: #fff;
+    }
+
+    .email-cont-tab h3{
+        margin-left: 17px;
+        padding: 0px 10px;
+        color: #fff;
+        font-weight: 150;
+        font-size: 15px;
+        width: 350px;
+    }
+
+    .emailarea-tab {
+        display: none; /* escondida por padrão */
+        padding: 0;
+        width: 100%;
+    }
+
+    .tabs-nav {
+        display: flex;
+        width: 100%;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    .tabs-nav a {
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-right: 20px;
+        text-decoration: none;
+        color: #ffffff;
+        border-bottom: none;
+        background-image: url(/Media/wallpaper\ azul\ claro.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+    }
+
+    .tabs-nav a.active {
+        background-image: url(/Media/wallpaper\ azul\ escuro.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-weight: bold;
+    }
+
+    
+
+
+
+    .emailarea-inner {
+        width: 100%;
+        position: relative;
+        overflow: hidden; 
+
+    }
+
+
+    .emailarea-inner .image-side {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        margin-top: -10px;
+        z-index: 1;
+        /* para fazer a imagem cobrir mantendo proporção */
+        overflow: hidden;
+    }
+
+    .emailarea-inner .image-side img {
+        margin-top: -30px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* opcional: ajuste de opacidade ou filtro pra destacar o form */
+        opacity: 0.7;
+        /* ou usar filtro: brightness, blur etc. */
+    }
+
+    /* garante que o form fique sobre a imagem */
+    .emailarea-inner .form-side {
+        position: relative;
+        z-index: 2;
+        padding: 10px;
+    }
+
+    .form-side {
+        width: 100px;
+        flex: 1;
+        padding: 30px;
+        box-sizing: border-box;
+        background-color: #000000;
+        border-radius: 10px;
+    }
+
+    .emailarea-inner .form-side {
+        margin-top: 40px;
+        position: relative;
+        z-index: 2;
+        background: rgba(10, 21, 41, 0.8); /* fundo semi-transparente para legibilidade */
+    }
+
+    .form-side label {
+        color: #fff;
+    }
+        
+    .fields-grid {
+        padding: 0px 3px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+
+    .fields-grid div {
+        width: 132px;
+        display: flex;
+        flex-direction: column;
+    }
+        
+    .fields-grid label {
+        margin-bottom: 3px;
+        font-size: 0.7rem;
+    }
+
+    .subject-area label {
+        margin-bottom: 3px;
+        font-size: 0.9rem;
+    }
+
+    .fields-grid input,
+    .form-side textarea {
+        padding: 4px;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        resize: vertical;
+    }
+
+    .form-side textarea {
+        width: 270px;
+        min-height: 130px;
+        margin-top: 5px;
+    }
+
+    .btn-submit {
+        margin-top: 15px;
+        padding: 10px;
+        width: 100%;
+        background-color: #2e3f9a;
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .btn-submit:hover {
+        background-color: #243175;
+    }
+ 
 
 }
