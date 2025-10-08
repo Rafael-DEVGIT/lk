@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./Ajuste/responsividade.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script>window.gtranslateSettings = {"default_language":"pt","native_language_names":true,"languages":["pt","en","es","it"],"wrapper_selector":".gtranslate_wrapper","alt_flags":{"en":"usa","pt":"brazil"}}</script>
-    <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+    <script>window.gtranslateSettings = {"default_language":"pt","languages":["pt","es","it","en"],"wrapper_selector":".gtranslate_wrapper","flag_size":20,"alt_flags":{"en":"usa","pt":"brazil"}}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/flags.js" defer></script>
 </head>
 
 
@@ -19,7 +19,7 @@
     <header class="header-responsivo">
         <div id="inicio" class="navbar">
             <div class="logo"><img src="./Media/logo nome lado 2.png" alt=""></div>
-            
+            <div>
             <div class="btns-nav">
                 <button class="hamburger" onclick="toggleMenu()"><img src="./Media/hamburgue.png" alt=""></button>
             </div>
@@ -36,7 +36,6 @@
                     <li><a href="#nossos-clientes">Nossos Clientes</a></li>
                     <li><a href="#contatos">Contatos</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <div class="gtranslate_wrapper"></div>
                 </ul>
             </div>
         </nav>
@@ -204,8 +203,7 @@
                     <a href="#" onclick="mostrarConteudo('div1', this)" class="ativo-btn">Hotel Vila Gale </a>
                     <a href="#" onclick="mostrarConteudo('div2', this)"> Costa Dos Ventos </a>
                     <a href="#" onclick="mostrarConteudo('div3', this)">Obra Bauduco</a>
-                    <a href="#" onclick="mostrarConteudo('div4', this)">Fachadas Stick e Unitizadas </a>
-                    <a href="#" onclick="mostrarConteudo('div5', this)">Portas ACM de Alto Padrão   </a>
+                    <a href="#" onclick="mostrarConteudo('div4', this)">Fachadas Stick </a>
                 </div>
 
                 <div id="div1" class="conteudo ativo">
@@ -249,7 +247,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <div id="div2" class="conteudo">
                     <div class="conteudo-destaque" data-images='[
@@ -358,46 +355,22 @@
                     </div>    
                 </div>
 
-                <div id="div5" class="conteudo">
-                    <div class="conteudo-destaque" data-images='[
-                        "https://picsum.photos/id/1011/600/400",
-                        "https://picsum.photos/id/1015/600/400",
-                        "https://picsum.photos/id/1016/600/400",
-                        "https://picsum.photos/id/1021/600/400",
-                        "https://picsum.photos/id/1022/600/400",
-                        "https://picsum.photos/id/1024/600/400",
-                        "https://picsum.photos/id/1025/600/400",
-                        "https://picsum.photos/id/1032/600/400"
-                        ]'>
-                        <div class="img-g">
-                            <img id="img-principal" src="./Media/Portas acm/porta acm 5.jpg" alt="Imagem Principal">
-                        </div>
-                        <div class="texto-divdestaque">
-                            <h3>Portas de Acm de Alto Padrão</h3>
-                            <h4>
-                                O Grupo LK Alumiglass é especialista em portas em ACM de alto padrão, entregando excelência em cada detalhe: design elegante, acabamento refinado, materiais premium e estrutura robusta, tudo para garantir beleza, durabilidade e alto desempenho.
-                            </h4>
-                            <div class="btn-img-g">
-                                <div>
-                                    <a><img src="./Media/Portas acm/porta acm 5.jpg" alt=""></a>
-                                    <a><img src="./Media/Portas acm/porta acm 2.jpeg" alt=""></a>
-                                    <a><img src="./Media/Portas acm/porta acm 3.jpg" alt=""></a>
-                                    <a><img src="./Media/Portas acm/porta acm 4.jpg" alt=""></a>
-                                </div>
-                                <div>
-                                    <a><img src="./Media/Portas acm/porta acm 1.jpg" alt=""></a>
-                                    <a><img src="./Media/Portas acm/porta acm 6.jpg" alt=""></a>
-                                    <a><img src="./Media/Portas acm/porta acm 7.jpg" alt=""></a>
-                                    <a><img src="./Media/Portas acm/porta acm 8.jpg" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
-                </div>
-
             </div>
         </div>
+ <!-- 
+        <div class="acm">
+            <div class="acm-titulo">
 
+            </div>
+            <div class="acm-conteudo">
+                <div class="wallpaper-acm">
+                </div>
+                <div class="acm-texto">
+
+                </div>
+            </div>
+        </div>
+-->
         <div id="empreendimentos" class="section-5">
             <section  class="projects">
                 <div class="sobre_titulo">
@@ -461,7 +434,7 @@
                         <h3>GRUPO CONSTRUÇÃO CIVIL</h3>
                         <h4>baixe nosso portfolio para descobrir  mais sobre nossos projetos e serviços!</h4>
                         <h5>(Clique no ícone abaixo)</h5>
-                        <a href="./LK Alumiglass Portfólio.pdf" ><img src="./Media/cloud-arrow-down-solid.svg" download="Lk Alumiglass Portfolio" target="_blank">
+                        <a href="./LK Alumiglass Portifolio.pdf" ><img src="./Media/cloud-arrow-down-solid.svg" download="Lk Alumiglass Portfolio" target="_blank">
                         </a>
                     </div>
                 <div class="section4-img">
@@ -473,17 +446,18 @@
 
     <div class="area-email">
         <div class="email-cont-tab">
-                <br>
                 <h1>Area de Contatos</h1>
                 <h3>Ficamos à disposição para atender suas dúvidas, sugestões ou solicitações. <br>Entre em contato conosco através dos canais abaixo.</h3>
-                 <br>
-        <div class="tabs-nav">
-            <a href="#" class="emailarea-link" data-target="tab1">Projetos</a>
-            <a href="#" class="emailarea-link" data-target="tab2">Comercial</a>
-            <a href="#" class="emailarea-link" data-target="tab3">Financeiro</a>
         </div>
 
+
         <div id="tab1" class="emailarea-tab">
+
+             <div class="tabs-nav">
+                <a href="#" class="emailarea-link" data-target="tab1">Projetos</a>
+                <a href="#" class="emailarea-link" data-target="tab2">Comercial</a>
+                <a href="#" class="emailarea-link" data-target="tab3">Financeiro</a>
+            </div>
             <div class="emailarea-inner">
                 <div class="image-side">
                     <img src="./Media/wallpaper footer.png  " alt="Logo 1">
@@ -530,100 +504,94 @@
 
         <div id="tab2" class="emailarea-tab">
             <div class="emailarea-inner">
-            <div class="image-side">
-                <img src="/Media/foto-3.jpg" alt="Logo 1">
-            </div>
-            <div class="form-side">
-                <form action="https://formsubmit.co/darjan@grupolkalumiglass.com.br" method="POST">
-                <div class="fields-grid">
-                    <div>
-                        <label for="nome1">Nome</label>
-                        <input type="text" id="nome1" name="nome" required />
-                    </div>
-                    <div>
-                        <label for="empresa1">Empresa</label>
-                        <input type="text" id="empresa1" name="empresa" />
-                    </div>
-                    <div>
-                        <label for="telefone1">Telefone</label>
-                        <input type="tel" id="telefone1" name="telefone" />
-                    </div>
-                    <div>
-                        <label for="email1">Email</label>
-                        <input type="email" id="email1" name="email" required />
-                    </div>
-                    <div>
-                        <label for="cidade1">Cidade</label>
-                        <input type="text" id="cidade1" name="cidade" />
-                    </div>
-                    <div>
-                        <label for="estado1">Estado</label>
-                        <input type="text" id="estado1" name="estado" />
-                    </div>
+                <div class="image-side">
+                    <img src="/Media/foto-3.jpg" alt="Logo 1">
                 </div>
+                <div class="form-side">
+                    <form action="https://formsubmit.co/darjan@grupolkalumiglass.com.br" method="POST">
+                    <div class="fields-grid">
+                        <div>
+                            <label for="nome1">Nome</label>
+                            <input type="text" id="nome1" name="nome" required />
+                        </div>
+                        <div>
+                            <label for="empresa1">Empresa</label>
+                            <input type="text" id="empresa1" name="empresa" />
+                        </div>
+                        <div>
+                            <label for="telefone1">Telefone</label>
+                            <input type="tel" id="telefone1" name="telefone" />
+                        </div>
+                        <div>
+                            <label for="email1">Email</label>
+                            <input type="email" id="email1" name="email" required />
+                        </div>
+                        <div>
+                            <label for="cidade1">Cidade</label>
+                            <input type="text" id="cidade1" name="cidade" />
+                        </div>
+                        <div>
+                            <label for="estado1">Estado</label>
+                            <input type="text" id="estado1" name="estado" />
+                        </div>
+                    </div>
 
-                <div class="subject-area">
-                    <label for="assunto1">Assunto</label>
-                    <textarea id="assunto1" name="assunto"></textarea>
+                    <div class="subject-area">
+                        <label for="assunto1">Assunto</label>
+                        <textarea id="assunto1" name="assunto"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Enviar</button>
+                    </form>
                 </div>
-
-                <button type="submit" class="btn-submit">Enviar</button>
-                </form>
-            </div>
             </div>
         </div>
 
         <div id="tab3" class="emailarea-tab">
             <div class="emailarea-inner">
-            <div class="image-side">
-                <img src="./Media/Wallpaper Main.jpg" alt="Logo 1">
-            </div>
-            <div class="form-side">
-                <form action="https://formsubmit.co/financeiro@grupolkalumiglass.com.br" method="POST">
-                <div class="fields-grid">
-                    <div>
-                        <label for="nome1">Nome</label>
-                        <input type="text" id="nome1" name="nome" required />
-                    </div>
-                    <div>
-                        <label for="empresa1">Empresa</label>
-                        <input type="text" id="empresa1" name="empresa" />
-                    </div>
-                    <div>
-                        <label for="telefone1">Telefone</label>
-                        <input type="tel" id="telefone1" name="telefone" />
-                    </div>
-                    <div>
-                        <label for="email1">Email</label>
-                        <input type="email" id="email1" name="email" required />
-                    </div>
-                    <div>
-                        <label for="cidade1">Cidade</label>
-                        <input type="text" id="cidade1" name="cidade" />
-                    </div>
-                    <div>
-                        <label for="estado1">Estado</label>
-                        <input type="text" id="estado1" name="estado" />
-                    </div>
+                <div class="image-side">
+                    <img src="./Media/Wallpaper Main.jpg" alt="Logo 1">
                 </div>
+                <div class="form-side">
+                    <form action="https://formsubmit.co/financeiro@grupolkalumiglass.com.br" method="POST">
+                    <div class="fields-grid">
+                        <div>
+                            <label for="nome1">Nome</label>
+                            <input type="text" id="nome1" name="nome" required />
+                        </div>
+                        <div>
+                            <label for="empresa1">Empresa</label>
+                            <input type="text" id="empresa1" name="empresa" />
+                        </div>
+                        <div>
+                            <label for="telefone1">Telefone</label>
+                            <input type="tel" id="telefone1" name="telefone" />
+                        </div>
+                        <div>
+                            <label for="email1">Email</label>
+                            <input type="email" id="email1" name="email" required />
+                        </div>
+                        <div>
+                            <label for="cidade1">Cidade</label>
+                            <input type="text" id="cidade1" name="cidade" />
+                        </div>
+                        <div>
+                            <label for="estado1">Estado</label>
+                            <input type="text" id="estado1" name="estado" />
+                        </div>
+                    </div>
 
-                <div class="subject-area">
-                    <label for="assunto1">Assunto</label>
-                    <textarea id="assunto1" name="assunto"></textarea>
+                    <div class="subject-area">
+                        <label for="assunto1">Assunto</label>
+                        <textarea id="assunto1" name="assunto"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Enviar</button>
+                    </form>
                 </div>
-
-                <button type="submit" class="btn-submit">Enviar</button>
-                </form>
             </div>
-            </div>
-        </div>
-
-
-
-
         </div>
     </div>
-
 
 
     <div  id="contatos" class="footer">
@@ -661,8 +629,5 @@
 
 
 </html>
-
-
-
 
 
