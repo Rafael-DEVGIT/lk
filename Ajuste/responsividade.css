@@ -441,7 +441,7 @@
         margin-top: 50px;
     }
 
-    .footer {
+        .footer {
         display: block;
         width: 100%;
         height: 600px;
@@ -462,7 +462,7 @@
 
     .footer-contatos {
         width: 60%;
-        height: 600px;
+        height: 670px;
         background-image: url(../Media/wallpaper\ azul\ escuro.png);
         background-size: cover;
         background-position: center;
@@ -472,16 +472,17 @@
     }
 
     .footer-contatos h1 {
-        font-size: 26px;
+        font-size: 22px;
         margin-bottom: -10px;
     }
 
     .footer-contatos h2 {
+        font-size: 18px;
         margin-bottom: 15px;
     }
 
     .footer-contatos h3 {
-        font-size: 13px;
+        font-size: 11px;
         font-weight: 200;
         margin-bottom: 5px;
     }
@@ -491,7 +492,7 @@
     }
 
     .footer-contatos .novas {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .footer-contatos .ultimo-h3 {
@@ -521,7 +522,6 @@
     .footer-contatos h4 {
         font-size: 30px;
     }
-
     .botoes {
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -788,3 +788,4 @@
  
 
 }
+
