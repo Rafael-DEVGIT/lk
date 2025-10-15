@@ -29,22 +29,22 @@ header {
     display: block;
     border-bottom: solid rgb(58, 101, 245) 2px;
 }
-.gtranslate_wrapper {
+
+.gtranslate_wrapper{
     display: flex;
-    gap: 10px;
-    align-items: end;
+    gap: 30px;
+}
+.tradutor a {
+    width: 70px;
+    height: 50px;
+    margin-top: 30px;
 }
 
-.gtranslate_wrapper a{
-    font-size: 30px;
-    transition: all 0.5s;
+.tradutor a img {
+    width: 70px;
+    height: 50px;
 }
 
-
-
-.gtranslate_wrapper a:hover{
-    transform: scale(1.1);
-}
 
 /* Navbar - topo */
 .navbar {
@@ -1088,5 +1088,6 @@ section h1 {
 .btn-submit:hover {
     background-color: #243175;
 }
+
 
 
