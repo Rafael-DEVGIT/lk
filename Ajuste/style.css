@@ -269,7 +269,7 @@ section h1 {
 .text-section1 {
     font-family: 'poppins';
     width: 471PX;
-    height: 320px;
+    height: 340px;
     position: absolute;
     top: 47%;
     left: 76%;
@@ -1101,6 +1101,7 @@ section h1 {
 .btn-submit:hover {
     background-color: #243175;
 }
+
 
 
 
