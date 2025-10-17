@@ -30,21 +30,33 @@ header {
     border-bottom: solid rgb(58, 101, 245) 2px;
 }
 
-.gtranslate_wrapper{
+
+.gtranslate_wrapper {
     display: flex;
-    gap: 30px;
-}
-.tradutor a {
-    width: 50px;
-    height: 50px;
-    margin-top: 30px;
-}
-
-.tradutor a img {
-    width: 50px;
-    height: 50px;
+    gap: 25px;
+    width: 150px;
+    height: 10px;
+    margin-top: 50px;
+    justify-content: center;
 }
 
+.gtranslate_wrapper a {
+    width: 100px;
+    height: 10px;
+}
+
+
+.gtranslate_wrapper a img{
+    width: 60px;
+    height: 49px;
+    transition: all 0.5s;
+}
+
+
+
+.gtranslate_wrapper a:hover{
+    transform: scale(1.1);
+}
 
 /* Navbar - topo */
 .navbar {
@@ -272,14 +284,14 @@ section h1 {
 }
 
 .text-section1 h2 {
-    font-size: 35px;
+    font-size: 29px;
     margin-top: 10px;
     margin-bottom: 10px;
     line-height: 1.2; /* 1.2 vezes o tamanho da fonte */
 }
 
 .text-section1 p {
-    font-size: 11.3px;
+    font-size: 10.6px;
     color:rgb(58, 101, 245);
 }
 
@@ -975,6 +987,7 @@ section h1 {
   width: 100%;
   margin-bottom: 20px;
   justify-content: center;
+  text-align: center;
 }
 
 .tabs-nav a {
@@ -1088,7 +1101,5 @@ section h1 {
 .btn-submit:hover {
     background-color: #243175;
 }
-
-
 
 
