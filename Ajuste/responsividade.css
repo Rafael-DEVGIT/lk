@@ -5,6 +5,10 @@
         margin-top: 7px;
     } 
 
+      .area-email {
+        display: none;
+    }
+
     .imagem-fixa {
         position: fixed;   /* Fica fixa na tela, mesmo ao rolar */
         bottom: 20px;      /* Distância do fundo */
@@ -671,4 +675,5 @@
       transition: all 0.5s;
     }
 }
+
 
